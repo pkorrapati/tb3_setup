@@ -10,6 +10,4 @@ git clone -b humble https://github.com/ROBOTIS-GIT/ld08_driver.git
 git clone -b humble https://github.com/ROBOTIS-GIT/coin_d4_driver
 cd ~/turtlebot3_ws/src/turtlebot3
 rm -r turtlebot3_cartographer turtlebot3_navigation2
-cd ~/turtlebot3_ws/
-colcon build --symlink-install
-source ~/.bashrc
+cd ~/turtlebot3_ws
